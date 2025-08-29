@@ -46,12 +46,12 @@ function callBtnEvent(element) {
         for (let history of callHistory) {
             const historyCard = document.createElement('div');
             historyCard.innerHTML = `
-                <div class=" flex justify-between items-center p-3 rounded-lg bg-gray-100 mt-2">
+                <div class=" flex justify-between items-center p-3 rounded-lg bg-gray-100 mt-1.5">
                     <div class="">
-                        <h2 class="text-[19px] font-medium">${history.serviceName}</h2>
-                        <p class="text-[18px] text-gray-500">${history.serviceNumber}</p>
+                        <h2 class="text-[17px] font-medium">${history.serviceName}</h2>
+                        <p class="text-[16px] text-gray-500">${history.serviceNumber}</p>
                     </div>
-                <p class="text-[18px]">${history.date}</p>
+                <p class="text-[16px]">${history.date}</p>
                 </div>`
             historyContainer.appendChild(historyCard)
 
