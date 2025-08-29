@@ -1,11 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>জরুরি সেবা ডিরেক্টরি</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+    <!-- tailwindcss link -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- inter font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <!-- font awsome link -->
+    <script src="https://kit.fontawesome.com/bf0b0c738d.js" crossorigin="anonymous"></script>
+    <!-- styles -->
+    <style>
+        .inter {
+            font-family: "Inter", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
 </head>
-<body>
-    
+
+<body class="inter bg-[#deffe481]">
+    <header>
+        <!-- navbar -->
+        <nav class=" flex flex-col  justify-between h-52 border 
+         px-0 py-4 bg-white md:flex-row md:px-15 md:h-25 ">
+            <div class="flex flex-col gap-2 items-center mx-auto md:flex-row md:mx-0">
+                <img src="assets/logo.png" class="w-16 h-16  ">
+                <h1 class="text-[#006747] font-extrabold text-[23px] md:w-32">Emergency Service</h1>
+            </div>
+            <div class=" flex items-center justify-between mt-5 px-5 md:w-[397px] md:mt-0">
+                <div
+                    class="flex bg-[#66f98647] h-12 rounded-[50px] w-28 font-black text-[19px] items-center justify-center gap-2">
+                    <span id="heart-number">0</span>
+                    <img src="assets/heart.png" class="w-7 h-7">
+                </div>
+                <div
+                    class="flex bg-[#66f98647] h-12 rounded-[50px] w-28 font-black  text-[19px] items-center justify-center gap-2">
+                    <span id="coin-num">100</span>
+                    <img src="assets/coin.png" class="w-7 h-7">
+                </div>
+                <div
+                    class="bg-[#00A63E] h-12 rounded-[50px] w-28 text-[19px] font-semibold text-white items-center flex justify-center">
+                    <p class=""><span id="copy-num">0</span> Copy</p>
+                </div>
+            </div>
+        </nav>
+        <!-- banner section -->
+        <div
+            class=" bg-gradient-to-r from-[#013223] via-[#056e4d] to-[#013223] text-white flex flex-col items-center justify-center h-88 ">
+            <img src="assets/logo-dark.png" class="w-[105px] h-[105px] mb-2 md:mb-3">
+            <h1 class="font-bold text-[36px] md:text-[40px]">জরুরি সেবা ডিরেক্টরি</h1>
+            <p class="text-[18px] text-center font-semibold mt-1 md:text-[20px] md:mt-1">Government Emergency Services
+                at Your
+                Fingertip – A
+                Project by
+                Government of the People’s Republic of Bangladesh</p>
+        </div>
+    </header>
 </body>
+
 </html>
