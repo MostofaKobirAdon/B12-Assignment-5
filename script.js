@@ -9,6 +9,8 @@ for (let heart of hearts) {
     })
 }
 
+// call btn functionalities
+
 
 
 let callHistory = []
@@ -79,6 +81,7 @@ callBtnEvent(document.getElementById("rail-call-btn"))
 document.getElementById('clear-btn').addEventListener("click", function () {
     const historyContainer = document.getElementById("history-container")
     historyContainer.innerHTML = ``;
+    callHistory = [];
 })
 
 
