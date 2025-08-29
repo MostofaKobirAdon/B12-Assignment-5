@@ -55,7 +55,7 @@ usefulness :
 - The code looks clear and shorter.
 
 
-#####  What is the difference between **preventDefault() and stopPropagation()** methods?
+##### 5. What is the difference between **preventDefault() and stopPropagation()** methods?
 
 ##### **Ans:**
 Here are the difference between **preventDefault()** and 
